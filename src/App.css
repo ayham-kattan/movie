@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.App {
+	display: grid;
+	grid-template-areas: "header" "main" "footer";
+	grid-template-rows: 5rem 1fr 5rem;
+	grid-template-columns: 1fr;
+	height: 100vh;
+}
+header {
+	grid: heade;
+	background-color: brown;
+	color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main {
+	grid: main;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+}
+footer {
+	grid: footer;
+	background-color: brown;
+	color: white;
+    display: flex;
+    justify-content: center;
+}
+.header__content{
+    display: flex;
+    margin-right: 20px;
+}
+.header__content>h2{
+margin-left: 15px;
+}
+.main__div__one{
+	display: flex;
+	flex:3;
+	flex-wrap: wrap;
+}
+.main__div__two{display: flex;
+	margin-top: 100px;
+	background: rgb(231, 231, 231);
+flex: 1;}

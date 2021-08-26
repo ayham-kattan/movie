@@ -1,0 +1,63 @@
+.cart {
+	margin-top: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 10px;
+}
+.cart__data {
+	border: 2px teal solid;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.cart__data > h3 {
+	text-align: center;
+	font-size: xx-large;
+}
+.cart__data > img {
+	padding: 5px;
+}
+.cart__data > p {
+	text-align: center;
+	font-size: large;
+}
+.cart__data > button {
+	display: flex;
+	margin-left: 39%;
+	margin-bottom: 7px;
+	margin-top: 7px;
+	width: 90px;
+	background: crimson;
+	padding-top: 1px;
+	padding-bottom: 0px;
+	height: 50px;
+	font-size: large;
+}
+.cart__data > button:hover {
+	font-weight: 200;
+	box-shadow: 3px 3px 7px crimson;
+}
+.filter{
+    
+display: flex;
+margin-left: 20px;
+justify-content: center;
+
+}
+.filtering{
+    display:flex;
+    margin-left: 20px;
+    align-items: center;
+    margin: 20px;;
+}
+.filtering>h1{color: crimson; font-size: xx-large;}
+.filtering>button{color: crimson;
+background: rgb(189, 189, 189);
+margin-left: 15px;
+font-size: x-large;
+cursor: pointer;
+}
+.filtering>button:hover{
+    border: black 2 solid;
+    box-shadow: 3px 3px 5px crimson;
+}
